@@ -1,6 +1,6 @@
 /*para convertir un archivo ts a js necesitas el comando tsc nombredelarchivo*/
 
-/*Para que los comandos ser mantengan a pesar de los cambios se coloca tsc --wacth*/
+/*Para que los comandos ser mantengan a pesar de los cambios se coloca tsc --watch*/
 
 /*El comando tsc --wacth no podra usarse si no tienes el archivo typescript*/
 

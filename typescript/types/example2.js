@@ -1,4 +1,4 @@
-
+"use strict";
 /**Opciones obligatorios y no obligatorias en typescript**/
 (() => {
     /**en esta funcion todos los campos son obligatorios */
