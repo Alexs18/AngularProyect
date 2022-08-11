@@ -1,0 +1,38 @@
+<div class="container m-5" style="background-color: rgb(204, 211, 211); display:flex">
+  <div class="Caja1 m-5" style="width: 40%;">
+    <div class="row p-5" style="border-bottom: 1px solid red;">
+      <div class="col p-3" >
+        <div class="card" style="width: 18rem;">
+          <div class="card-body" *ngIf="estado">
+            <p class="card-text">
+              El primer libro es : {{libros[0].title}}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <input type="buttom" class="btn btn-outline-primary btn-block" value="NgIf" (click)="estado = !estado">
+        <p>NGIF</p>
+      </div>
+    </div>
+  </div>
+  <div class="Caja2 m-5" style="width: 40%;">
+    <div class="row p-5" style="border-bottom: 1px solid blue;">
+      <div class="col p-3" *ngFor="let libro of libros">
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <ul>
+              <li class="card-text">{{libro.id}}</li>
+              <li class="card-text">{{libro.title}}</li>
+              <li class="card-text">{{libro.autor}}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <p>NGFOR</p>
+      </div>
+    </div>
+  </div>
+</div>

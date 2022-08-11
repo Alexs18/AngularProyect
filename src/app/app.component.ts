@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-app';
+
+  Calcular(number:number){
+    return {
+      number:number+10,
+      message:'welcome'
+    }
+  }
 }

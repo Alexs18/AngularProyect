@@ -53,3 +53,12 @@ function Vengadores(nombre, poder, arma = 'Arco') {
 //   * altura
 // También un método que calcule el área  =  base * altura,
 // ese método debe de retornar un numero.
+class rectangulo {
+    constructor(base, altura) {
+        this.base = base;
+        this.altura = altura;
+    }
+    Calcular() {
+        return this.base * this.altura;
+    }
+}
